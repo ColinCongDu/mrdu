@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-66e9e7c4","path":"/note/bundle/vite/%E6%BA%90%E7%A0%81.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691941624000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"note/bundle/vite/源码.md"}');export{e as data};

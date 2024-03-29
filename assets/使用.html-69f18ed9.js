@@ -1,0 +1,3 @@
+import{_ as a,o as e,c as s,a as n}from"./app-cae166ec.js";const t={},c=n(`<div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>    <span class="token function">git</span> config <span class="token parameter variable">--global</span> <span class="token parameter variable">--unset</span> http.proxy
+    <span class="token function">git</span> config <span class="token parameter variable">--global</span> <span class="token parameter variable">--unset</span> https.proxy
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div>`,1),l=[c];function r(o,i){return e(),s("div",null,l)}const d=a(t,[["render",r],["__file","使用.html.vue"]]);export{d as default};

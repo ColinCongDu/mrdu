@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-116bcd94","path":"/note/framework/router/%E8%B7%AF%E7%94%B1%E9%85%8D%E7%BD%AE.html","title":"路由配置","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1703020290000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"note/framework/router/路由配置.md"}');export{t as data};

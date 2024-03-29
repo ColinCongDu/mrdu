@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-3a87d2fc","path":"/note/base/typescript/%E6%A6%82%E8%BF%B0.html","title":"概述","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1710242545000,"contributors":[{"name":"杜聪聪","email":"ducongcong1996@163.com","commits":2}]},"filePathRelative":"note/base/typescript/概述.md"}');export{t as data};

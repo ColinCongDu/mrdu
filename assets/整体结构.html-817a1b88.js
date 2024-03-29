@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as _,b as c}from"./app-cae166ec.js";const o={},s=c("p",null,"https://www.toimc.com/nestjs-example-project-4/",-1),n=[s];function r(a,l){return t(),_("div",null,n)}const i=e(o,[["render",r],["__file","整体结构.html.vue"]]);export{i as default};

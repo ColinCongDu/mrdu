@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as _,b as e,d as c}from"./app-cae166ec.js";const o={},r=e("h3",{id:"仓库配置",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#仓库配置","aria-hidden":"true"},"#"),c(" 仓库配置")],-1),s=[r];function n(d,i){return a(),_("div",null,s)}const l=t(o,[["render",n],["__file","基本使用.html.vue"]]);export{l as default};

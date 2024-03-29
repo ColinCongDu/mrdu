@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7633a67d","path":"/blog/%E4%BD%BF%E7%94%A8LiveServer%E5%81%9A%E4%BB%A3%E7%90%86.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691941624000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"blog/使用LiveServer做代理.md"}');export{e as data};

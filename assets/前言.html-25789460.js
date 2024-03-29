@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-402977a2","path":"/note/framework/router/%E5%89%8D%E8%A8%80.html","title":"前言","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1703020290000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"note/framework/router/前言.md"}');export{t as data};

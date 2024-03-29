@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-745a4ade","path":"/blog/%E5%89%8D%E7%AB%AF%E7%9B%91%E6%8E%A7.html","title":"前端监控","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691941624000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"blog/前端监控.md"}');export{t as data};

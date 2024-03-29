@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-b3ae65c8","path":"/blog/%E5%BC%80%E5%8F%91%E4%B8%80%E4%B8%AA%E5%89%8D%E7%AB%AF%E5%8C%85.html","title":"开发一个包","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691941624000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"blog/开发一个前端包.md"}');export{t as data};

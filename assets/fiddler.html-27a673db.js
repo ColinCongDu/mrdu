@@ -1,0 +1,1 @@
+import{_ as e,o as t,c,b as o}from"./app-cae166ec.js";const n={},s=o("p",null,"https://zhuanlan.zhihu.com/p/445862889",-1),_=[s];function l(r,a){return t(),c("div",null,_)}const i=e(n,[["render",l],["__file","fiddler.html.vue"]]);export{i as default};

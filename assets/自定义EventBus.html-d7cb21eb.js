@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-37b45cee","path":"/blog/%E8%87%AA%E5%AE%9A%E4%B9%89EventBus.html","title":"自定义Event Bus","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691941624000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"blog/自定义EventBus.md"}');export{t as data};

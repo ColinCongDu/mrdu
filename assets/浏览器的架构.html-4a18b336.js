@@ -1,0 +1,1 @@
+import{_ as t,o as _,c as a,b as e,d as c}from"./app-cae166ec.js";const o={},r=e("h1",{id:"浏览器架构",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#浏览器架构","aria-hidden":"true"},"#"),c(" 浏览器架构")],-1),s=[r];function n(d,i){return _(),a("div",null,s)}const l=t(o,[["render",n],["__file","浏览器的架构.html.vue"]]);export{l as default};

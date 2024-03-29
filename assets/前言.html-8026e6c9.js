@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,b as e,d as o}from"./app-cae166ec.js";const r={},s=e("h1",{id:"前言",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#前言","aria-hidden":"true"},"#"),o(" 前言")],-1),_=[s];function n(d,i){return a(),c("div",null,_)}const l=t(r,[["render",n],["__file","前言.html.vue"]]);export{l as default};

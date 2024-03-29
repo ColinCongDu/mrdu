@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as o,b as e,d as a}from"./app-cae166ec.js";const s={},r=e("h1",{id:"装饰器",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#装饰器","aria-hidden":"true"},"#"),a(" 装饰器")],-1),_=e("p",null,"https://wangdoc.com/typescript/decorator",-1),n=[r,_];function d(i,h){return c(),o("div",null,n)}const f=t(s,[["render",d],["__file","装饰器.html.vue"]]);export{f as default};

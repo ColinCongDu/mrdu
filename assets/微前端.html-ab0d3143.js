@@ -1,0 +1,1 @@
+import{_ as t,o,c as a,b as e,d as c}from"./app-cae166ec.js";const s={},_=e("h1",{id:"微前端",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#微前端","aria-hidden":"true"},"#"),c(" 微前端")],-1),n=e("p",null,"https://facebook.github.io/flux/",-1),r=[_,n];function d(i,h){return o(),a("div",null,r)}const f=t(s,[["render",d],["__file","微前端.html.vue"]]);export{f as default};

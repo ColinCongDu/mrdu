@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e2370ebe","path":"/note/base/typescript/%E7%B1%BB%E5%9E%8B%E6%96%AD%E8%A8%80.html","title":"类型断言","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1710242545000,"contributors":[{"name":"杜聪聪","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"note/base/typescript/类型断言.md"}');export{e as data};

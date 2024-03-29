@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-63da2714","path":"/note/base/node/Events%E6%A8%A1%E5%9D%97.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691941624000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"note/base/node/Events模块.md"}');export{e as data};

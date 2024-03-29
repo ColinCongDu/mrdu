@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as r,b as e,d as c}from"./app-cae166ec.js";const d={},o=e("h1",{id:"react-redux",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#react-redux","aria-hidden":"true"},"#"),c(" React Redux")],-1),s=[o];function n(_,i){return a(),r("div",null,s)}const h=t(d,[["render",n],["__file","react-redux.html.vue"]]);export{h as default};

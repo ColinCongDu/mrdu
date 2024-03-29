@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5642e56d","path":"/note/base/typescript/%E6%8E%A5%E5%8F%A3.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1703995482000,"contributors":[{"name":"杜聪聪","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"note/base/typescript/接口.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-052d06c0","path":"/blog/%E5%89%8D%E7%AB%AF%E8%A7%84%E8%8C%83.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691941624000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"blog/前端规范.md"}');export{t as data};

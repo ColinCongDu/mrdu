@@ -1,0 +1,1 @@
+import{_ as t,o as _,c,b as e}from"./app-cae166ec.js";const o={},s=e("p",null,"https://exploringjs.com/tackling-ts/ch_typing-objects.html#roles-played-by-objects",-1),l=e("p",null,"https://cloud.tencent.com/developer/article/1610691",-1),n=[s,l];function r(a,i){return _(),c("div",null,n)}const d=t(o,[["render",r],["__file","关于类型系统的思考.html.vue"]]);export{d as default};

@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5b26d341","path":"/blog/%E4%BB%80%E4%B9%88%E6%98%AFglobalThis.html","title":"什么是globalThis","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691941624000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"blog/什么是globalThis.md"}');export{t as data};

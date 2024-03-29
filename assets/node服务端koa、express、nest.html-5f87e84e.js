@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,b as o}from"./app-cae166ec.js";const _={},n=o("p",null,"Nest.js 和 koa 有什么不一样？ - 余腾靖的回答 - 知乎 https://www.zhihu.com/question/323525252/answer/937101214",-1),c=[n];function a(r,l){return s(),t("div",null,c)}const i=e(_,[["render",a],["__file","node服务端koa、express、nest.html.vue"]]);export{i as default};

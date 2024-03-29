@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,b as e,d as o}from"./app-cae166ec.js";const r={},s=e("h1",{id:"缓存",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#缓存","aria-hidden":"true"},"#"),o(" 缓存")],-1),_=[s];function n(d,i){return a(),c("div",null,_)}const l=t(r,[["render",n],["__file","缓存.html.vue"]]);export{l as default};

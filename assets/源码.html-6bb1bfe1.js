@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as o,b as t}from"./app-cae166ec.js";const c={},_=t("p",null,"https://github.com/vitejs/vite/blob/main/CONTRIBUTING.md",-1),n=t("p",null,"https://github.com/vitejs/vite/discussions/4065",-1),i=[_,n];function l(a,r){return s(),o("div",null,i)}const h=e(c,[["render",l],["__file","源码.html.vue"]]);export{h as default};

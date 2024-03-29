@@ -1,0 +1,1 @@
+import{_,o as t,c as a,b as e,d as c}from"./app-cae166ec.js";const o={},r=e("h1",{id:"开发一个包",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#开发一个包","aria-hidden":"true"},"#"),c(" 开发一个包")],-1),s=[r];function n(d,i){return t(),a("div",null,s)}const l=_(o,[["render",n],["__file","开发一个前端包.html.vue"]]);export{l as default};

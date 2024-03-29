@@ -1,0 +1,1 @@
+import{_,o as t,c as n,b as e,d as a}from"./app-cae166ec.js";const c={},o=e("h1",{id:"linux常用命令及技巧",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#linux常用命令及技巧","aria-hidden":"true"},"#"),a(" Linux常用命令及技巧")],-1),r=[o];function s(i,d){return t(),n("div",null,r)}const u=_(c,[["render",s],["__file","Linux常用命令及技巧.html.vue"]]);export{u as default};

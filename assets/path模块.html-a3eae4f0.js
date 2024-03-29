@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,b as e,d as o}from"./app-cae166ec.js";const r={},s=e("h1",{id:"path-模块",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#path-模块","aria-hidden":"true"},"#"),o(" path 模块")],-1),_=[s];function n(h,d){return a(),c("div",null,_)}const l=t(r,[["render",n],["__file","path模块.html.vue"]]);export{l as default};

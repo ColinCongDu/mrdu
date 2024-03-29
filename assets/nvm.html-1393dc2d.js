@@ -1,0 +1,1 @@
+import{_ as e,o as n,c,b as o}from"./app-cae166ec.js";const t={},s=o("p",null,"windows下使用cmd运行nvm use切换node版本时，必须以管理员身份打开cmd。",-1),_=[s];function r(a,d){return n(),c("div",null,_)}const m=e(t,[["render",r],["__file","nvm.html.vue"]]);export{m as default};

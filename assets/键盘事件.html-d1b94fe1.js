@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-03a3847e","path":"/note/base/DOM/%E9%94%AE%E7%9B%98%E4%BA%8B%E4%BB%B6.html","title":"键盘事件","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691941624000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"note/base/DOM/键盘事件.md"}');export{e as data};

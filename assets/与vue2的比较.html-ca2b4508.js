@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-56c1ba14","path":"/note/framework/vue3/%E4%B8%8Evue2%E7%9A%84%E6%AF%94%E8%BE%83.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1709892069000,"contributors":[{"name":"杜聪聪","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"note/framework/vue3/与vue2的比较.md"}');export{e as data};

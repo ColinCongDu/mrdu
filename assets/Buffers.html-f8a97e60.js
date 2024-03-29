@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4fdad80e","path":"/note/base/node/Buffers.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691941624000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"note/base/node/Buffers.md"}');export{e as data};

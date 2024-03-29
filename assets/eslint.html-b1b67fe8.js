@@ -1,0 +1,1 @@
+import{_ as e,o,c as l,b as t}from"./app-cae166ec.js";const n={},s=t("p",null,"什么是global模式，使用global模式的话ext就失效了",-1),c=t("p",null,"https://drylint.com/projectConfig/glob%20%E6%A8%A1%E5%BC%8F.html",-1),_=[s,c];function r(a,i){return o(),l("div",null,_)}const f=e(n,[["render",r],["__file","eslint.html.vue"]]);export{f as default};

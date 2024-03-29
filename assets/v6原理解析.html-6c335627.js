@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-3d891592","path":"/note/framework/router/v6%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1703020290000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"note/framework/router/v6原理解析.md"}');export{t as data};

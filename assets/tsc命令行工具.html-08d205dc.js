@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-243e9a6e","path":"/note/base/typescript/tsc%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691941624000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"note/base/typescript/tsc命令行工具.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1472e909","path":"/note/base/DOM/%E4%BA%8B%E4%BB%B6.html","title":"事件","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691941624000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"note/base/DOM/事件.md"}');export{e as data};

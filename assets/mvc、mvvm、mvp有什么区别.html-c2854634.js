@@ -1,0 +1,1 @@
+import{_ as m,o as c,c as _,b as e,d as t}from"./app-cae166ec.js";const v={},a=e("h1",{id:"mvc、mvvm、mvp有什么区别",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#mvc、mvvm、mvp有什么区别","aria-hidden":"true"},"#"),t(" mvc、mvvm、mvp有什么区别")],-1),o=[a];function r(s,n){return c(),_("div",null,o)}const i=m(v,[["render",r],["__file","mvc、mvvm、mvp有什么区别.html.vue"]]);export{i as default};

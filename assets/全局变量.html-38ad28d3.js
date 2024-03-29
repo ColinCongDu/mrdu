@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2994e156","path":"/note/base/node/%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1691941624000,"contributors":[{"name":"DuCongcong","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"note/base/node/全局变量.md"}');export{e as data};

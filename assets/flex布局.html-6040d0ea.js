@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,b as e,d as o}from"./app-cae166ec.js";const r={},s=e("h1",{id:"flex布局",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#flex布局","aria-hidden":"true"},"#"),o(" flex布局")],-1),_=[s];function n(l,d){return a(),c("div",null,_)}const i=t(r,[["render",n],["__file","flex布局.html.vue"]]);export{i as default};

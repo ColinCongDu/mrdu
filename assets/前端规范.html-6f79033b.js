@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,b as _}from"./app-cae166ec.js";const c={},s=_("p",null,"https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#",-1),n=[s];function r(l,a){return t(),o("div",null,n)}const i=e(c,[["render",r],["__file","前端规范.html.vue"]]);export{i as default};

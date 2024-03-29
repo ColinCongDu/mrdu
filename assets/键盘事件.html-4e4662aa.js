@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as _,b as e,d as c}from"./app-cae166ec.js";const o={},r=e("h1",{id:"键盘事件",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#键盘事件","aria-hidden":"true"},"#"),c(" 键盘事件")],-1),s=[r];function n(d,i){return a(),_("div",null,s)}const l=t(o,[["render",n],["__file","键盘事件.html.vue"]]);export{l as default};

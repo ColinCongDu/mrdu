@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as _,b as e,d as c}from"./app-cae166ec.js";const o={},r=e("h1",{id:"栅格布局",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#栅格布局","aria-hidden":"true"},"#"),c(" 栅格布局")],-1),s=[r];function n(d,i){return a(),_("div",null,s)}const l=t(o,[["render",n],["__file","栅格布局.html.vue"]]);export{l as default};

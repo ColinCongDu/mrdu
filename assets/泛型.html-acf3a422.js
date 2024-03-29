@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-a4783578","path":"/note/base/typescript/%E6%B3%9B%E5%9E%8B.html","title":"泛型","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1709892069000,"contributors":[{"name":"杜聪聪","email":"ducongcong1996@163.com","commits":1}]},"filePathRelative":"note/base/typescript/泛型.md"}');export{t as data};

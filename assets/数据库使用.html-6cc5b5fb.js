@@ -1,0 +1,1 @@
+import{_ as t,o as _,c as a,b as e,d as c}from"./app-cae166ec.js";const o={},r=e("h1",{id:"数据库使用",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#数据库使用","aria-hidden":"true"},"#"),c(" 数据库使用")],-1),s=[r];function n(d,i){return _(),a("div",null,s)}const l=t(o,[["render",n],["__file","数据库使用.html.vue"]]);export{l as default};

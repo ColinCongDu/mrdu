@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-025412b9","path":"/note/base/typescript/%E5%87%BD%E6%95%B0.html","title":"函数","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1710242545000,"contributors":[{"name":"杜聪聪","email":"ducongcong1996@163.com","commits":2}]},"filePathRelative":"note/base/typescript/函数.md"}');export{t as data};
