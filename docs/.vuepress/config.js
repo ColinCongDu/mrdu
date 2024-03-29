@@ -4,6 +4,7 @@ import { defaultTheme } from 'vuepress';
 export default defineUserConfig({
 	lang: 'zh-CN',
 	title: "Mr.Du's blog",
+	base: '/mrdu/',
 	lastUpdated: '更新时间',
 	theme: defaultTheme({
 		navbar: [
