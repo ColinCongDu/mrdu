@@ -1,5 +1,0 @@
-# React
-
-## react
-
-## react-redux

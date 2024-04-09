@@ -86,6 +86,9 @@ export default defineUserConfig({
                             link: '/note/framework/react/JSX.md',
                         },
 					]
+				},
+				{
+					text: 'react路由',
 				}
 			],
 			'/note/algorithm/': [

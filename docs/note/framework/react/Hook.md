@@ -1,23 +1,8 @@
-# Hook使用及原理
+# Hook
 
 ## 为什么要使用hook，被弃用的mixins
 
-## 常用的hook
-
-### useEffect
-
-### useMemo
-
-### useRef
-
-### useReducer
-
-### useSyncExternalStore
-
-
-## 自定义hook
-
-## hook实现的原理
+## hook的使用条件
 
 
 在[浅谈：为啥Vue和React都选择了Hooks?](https://juejin.cn/post/7066951709678895141)这篇文章中详细介绍了使用Hooks的好处。
