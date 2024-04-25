@@ -88,7 +88,46 @@ export default defineUserConfig({
 					]
 				},
 				{
-					text: 'react路由',
+					text: 'React Router'
+					children: [
+					    {
+					        text: '前言',
+					        link: '/note/framework/react-router/前言.md',
+					    },
+						{
+							text: '路由配置'
+							link: '/note/framework/react-router/路由配置.md',
+						},
+						{
+							text: '路由导航',
+							link: '/note/framework/react-router/路由导航.md',
+						},
+						{
+							text: '路由传参',
+							link: '/note/framework/react-router/路由传参.md',
+						}
+					]
+				},
+				{
+					text: 'Redux'
+					children: [
+						{
+							text: 'Redux'
+							link: '/note/framework/redux/Redux.md',
+						},
+						{
+						    text: 'Redux Redux',
+							link: '/note/framework/redux/Redux-Redux.md',
+						},
+						{
+						    text: 'Redux Toolkit',
+							link: '/note/framework/redux/Redux-Toolkit.md',
+						}
+					]
+				},
+				{
+					text: 'Vue3',
+					link: '/note/framework/vue3/vue3.md',
 				}
 			],
 			'/note/algorithm/': [
