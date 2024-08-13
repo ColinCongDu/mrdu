@@ -1,3 +1,5 @@
+# 手写js原生函数
+
 ### 手写bind
 
 ```javascript
