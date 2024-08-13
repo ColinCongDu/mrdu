@@ -114,6 +114,28 @@ export default defineUserConfig({
 					]
 				},
 				{
+					text: 'Node.js',
+					children: [
+						{
+							text: '概述',
+							link: '/note/base/node/概述.md',
+						},
+					]
+				},
+				{
+					text: '包管理器',
+					children: [
+						{
+							text: '概述',
+							link: '/note/base/npm/概述.md',
+						},
+						{
+							text: 'package.json详解',
+							link: '/note/base/npm/package.md',
+						}
+					]
+				},
+				{
 					text: '网络',
 					children: [
 						{
