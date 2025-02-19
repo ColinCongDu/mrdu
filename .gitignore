@@ -4,6 +4,5 @@ node_modules/
 .idea/
 .vscode/
 
-docs/.vuepress/dist/
-docs/.vuepress/.cache/
-docs/.vuepress/.temp/
+.vitepress/dist/
+.vitepress/cache/
