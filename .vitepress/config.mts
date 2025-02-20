@@ -7,7 +7,9 @@ export default defineConfig({
     themeConfig: {
         nav: nav(),
         sidebar: {
-            '/note/base' : { base: '/zh/guide/', items: sidebarBase() }
+            '/article/': { base: '/article/', items: sidebarArticle() },
+            '/note/base/' : { base: '/note/base/', items: sidebarBase() },
+            '/note/framework/' : { base: '/note/framework/', items: sidebarFramework() }
         },
         socialLinks: [
             { icon: "github", link: "https://github.com/MrDuCongcong/mrdu" },
@@ -66,16 +68,39 @@ function nav(): DefaultTheme.NavItem[] {
     ];
 }
 
+function sidebarArticle(): DefaultTheme.SidebarItem[] {
+    return [
+        {
+            text: '文章',
+            items: [
+                { text: '大型前端工程的管理方式', link: '大型前端工程的管理方式' },
+                { text: '单点登录', link: '单点登录' },
+                { text: '浏览器的兼容性', link: '浏览器的兼容性' },
+            ]
+        }
+    ];
+}
+
 function sidebarBase(): DefaultTheme.SidebarItem[] {
     return [
         {
-            text: '简介',
+            text: 'JavaScript',
+            base: './javascript/',
             collapsed: false,
             items: [
-              { text: '什么是 VitePress？', link: 'what-is-vitepress' },
-              { text: '快速开始', link: 'getting-started' },
-              { text: '路由', link: 'routing' },
-              { text: '部署', link: 'deploy' }
+              { text: '模块系统', link: '模块系统' },
+            ]
+        }
+    ]
+}
+
+function sidebarFramework(): DefaultTheme.SidebarItem[] {
+    return [
+        {
+            text: 'Vue',
+            collapsed: false,
+            items: [
+              { text: 'Vue3', link: 'Vue3' },
             ]
         }
     ]
