@@ -9,7 +9,13 @@ export default defineConfig({
         sidebar: {
             '/article/': { base: '/article/', items: sidebarArticle() },
             '/note/base/' : { base: '/note/base/', items: sidebarBase() },
-            '/note/framework/' : { base: '/note/framework/', items: sidebarFramework() }
+            '/note/algorithm/' : { base: '/note/algorithm/', items: sidebarAlgorithm() },
+            '/note/framework/' : { base: '/note/framework/', items: sidebarFramework() },
+            '/note/engineering/' : { base: '/note/engineering/', items: sidebarEngineering() },
+            '/note/mobile' : { base: '/note/mobile', items: sidebarMobile() },
+            '/note/server': { base: '/note/server', items: sidebarServer() },
+            '/note/optimize': { base: '/note/optimize', items: sidebarOptimize() },
+            '/note/secure': { base: '/note/secure', items: sidebarSecure() },
         },
         socialLinks: [
             { icon: "github", link: "https://github.com/MrDuCongcong/mrdu" },
@@ -33,15 +39,15 @@ function nav(): DefaultTheme.NavItem[] {
             items: [
                 {
                     text: "基础",
-                    link: "/note/base",
-                },
-                {
-                    text: "框架",
-                    link: "/note/framework",
+                    link: "/note/base/javascript/模块系统",
                 },
                 {
                     text: "算法",
                     link: "/note/algorithm",
+                },
+                {
+                    text: "框架",
+                    link: "/note/framework",
                 },
                 {
                     text: "工程化",
@@ -76,6 +82,7 @@ function sidebarArticle(): DefaultTheme.SidebarItem[] {
                 { text: '大型前端工程的管理方式', link: '大型前端工程的管理方式' },
                 { text: '单点登录', link: '单点登录' },
                 { text: '浏览器的兼容性', link: '浏览器的兼容性' },
+                { text: '如何做好国际化', link: '如何做好国际化' },
             ]
         }
     ];
@@ -85,13 +92,17 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: 'JavaScript',
-            base: './javascript/',
+            base: '/note/base/javascript/',
             collapsed: false,
             items: [
               { text: '模块系统', link: '模块系统' },
             ]
         }
     ]
+}
+
+function sidebarAlgorithm(): DefaultTheme.SidebarItem[] {
+    return [];
 }
 
 function sidebarFramework(): DefaultTheme.SidebarItem[] {
@@ -104,4 +115,25 @@ function sidebarFramework(): DefaultTheme.SidebarItem[] {
             ]
         }
     ]
+}
+
+function sidebarEngineering(): DefaultTheme.SidebarItem[] {
+    return [];
+}
+
+function sidebarMobile(): DefaultTheme.SidebarItem[] {
+    return [];
+}
+
+function sidebarServer(): DefaultTheme.SidebarItem[] {
+    return [];
+}
+
+
+function sidebarOptimize(): DefaultTheme.SidebarItem[] {
+    return [];
+}
+
+function sidebarSecure(): DefaultTheme.SidebarItem[] {
+    return [];
 }
