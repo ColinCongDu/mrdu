@@ -43,7 +43,7 @@ function nav(): DefaultTheme.NavItem[] {
                 },
                 {
                     text: "算法",
-                    link: "/note/algorithm",
+                    link: "/note/algorithm/树",
                 },
                 {
                     text: "框架",
@@ -51,23 +51,23 @@ function nav(): DefaultTheme.NavItem[] {
                 },
                 {
                     text: "工程化",
-                    link: "/note/engineering",
+                    link: "/note/engineering/概述",
                 },
                 {
                     text: "移动端",
-                    link: "/note/mobile",
+                    link: "/note/mobile/移动端开发技术路线",
                 },
                 {
                     text: "服务端",
-                    link: "/note/server",
+                    link: "/note/server/node服务端开发",
                 },
                 {
                     text: "优化",
-                    link: "/note/optimize",
+                    link: "/note/optimize/exception/如何处理异常",
                 },
                 {
                     text: "安全",
-                    link: "/note/secure",
+                    link: "/note/secure/非对称加密",
                 }
             ],
         },
@@ -136,7 +136,15 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarAlgorithm(): DefaultTheme.SidebarItem[] {
-    return [];
+    return [
+        {
+            text: '算法',
+            base: '/note/algorithm/',
+            items: [
+               { text: '树', link: '树' },
+            ]
+        },
+    ];
 }
 
 function sidebarFramework(): DefaultTheme.SidebarItem[] {
@@ -188,6 +196,13 @@ function sidebarFramework(): DefaultTheme.SidebarItem[] {
 function sidebarEngineering(): DefaultTheme.SidebarItem[] {
     return [
         {
+            text: '工程化',
+            base: '/note/engineering/',
+            items: [
+               { text: '概述', link: '概述' },
+            ]
+        },
+        {
             text: '测试',
             base: '/note/engineering/test/',
             collapsed: false,
@@ -199,18 +214,57 @@ function sidebarEngineering(): DefaultTheme.SidebarItem[] {
 }
 
 function sidebarMobile(): DefaultTheme.SidebarItem[] {
-    return [];
+    return [
+        {
+            text: '移动端',
+            base: '/note/mobile/',
+            items: [
+               { text: '移动端开发技术路线', link: '移动端开发技术路线' },
+            ]
+        },
+    ];
 }
 
 function sidebarServer(): DefaultTheme.SidebarItem[] {
-    return [];
+    return [
+        {
+            text: '服务端',
+            base: '/note/server/',
+            items: [
+               { text: 'node服务端开发', link: 'node服务端开发' },
+            ]
+        },
+    ];
 }
 
 
 function sidebarOptimize(): DefaultTheme.SidebarItem[] {
-    return [];
+    return [
+        {
+            text: '异常',
+            base: '/note/optimize/exception/',
+            items: [
+               { text: '如何处理异常', link: '如何处理异常' },
+            ]
+        },
+        {
+            text: '性能',
+            base: '/note/optimize/performance/',
+            items: [
+               { text: '如何评估性能', link: '如何评估性能' },
+            ]
+        },
+    ];
 }
 
 function sidebarSecure(): DefaultTheme.SidebarItem[] {
-    return [];
+    return [
+        {
+            text: '安全',
+            base: '/note/secure/',
+            items: [
+               { text: '非对称加密', link: '非对称加密' },
+            ]
+        },
+    ];
 }
