@@ -70,7 +70,7 @@ console.log(`数据存储目录：${userDataDir}`);
 
 process.env.HOME 只适用于 Linux/macOS，在 Windows 上 HOME 变量可能为空，正确的变量是 USERPROFILE，因此 os.homedir() 是最安全的跨平台方案。
 
-## os.freemem()
+## `os.freemem()`
 
 用于获取系统当前可用的内存（空闲 RAM 大小），单位为 字节（bytes）。
 
@@ -92,6 +92,42 @@ if (freeMemory < minMemoryRequired) {
     console.log('系统内存充足，可以正常运行');
 } 
 ```
+
+## `os.cpus()`
+
+用于获取关于计算机 CPU（中央处理单元）的信息，返回包含每个逻辑 CPU 核心信息的对象数组。
+
+```javascript
+[
+    {
+        model: '13th Gen Intel(R) Core(TM) i5-13500H',
+        speed: 3187,
+        times: {
+            user: 2951187,
+            nice: 0,
+            sys: 2662171,
+            idle: 352910796,
+            irq: 172328
+        }
+    },
+    { ... } // 其他CPU核心
+]
+```
+
+字段说明
+
+|字段      |说明                            |
+|----------|-------------------------------|
+|model     |CPU 型号（如 Intel、AMD）       |
+|speed     |处理器频率（MHz）               |  
+|times.user|用户模式下的 CPU 时间           |
+|times.nice|低优先级进程 CPU 时间（通常为 0）|
+|times.sys |内核模式下的 CPU 时间           |
+|times.idle|CPU 空闲时间                   |
+|times.irq |处理中断请求的时间              |
+
+nice值仅适用于 POSIX。在 Windows 上，nice所有处理器的值始终为 0。
+
 
 ## `os.availableParallelism()`
 
