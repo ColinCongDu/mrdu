@@ -20,6 +20,16 @@ export default defineConfig({
         socialLinks: [
             { icon: "github", link: "https://github.com/MrDuCongcong/mrdu" },
         ],
+        outline: {
+            label: '页面导航'
+        },
+        lastUpdated: {
+            text: '最后更新于',
+            formatOptions: {
+                dateStyle: 'short',
+                timeStyle: 'medium'
+            }
+        },
         footer: {
             message: '基于 MIT 许可发布',
             copyright: `版权所有 © 2019-${new Date().getFullYear()} 杜聪聪`
@@ -93,7 +103,7 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: '包管理器',
-            base: '/note/base/javascript/',
+            base: '/note/base/npm/',
             collapsed: false,
             items: [
                 { text: 'package.json详解', link: 'package' },
@@ -101,10 +111,11 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
         },
         {
             text: 'node',
-            base: '/note/base/javascript/',
+            base: '/note/base/node/',
             collapsed: false,
             items: [
                 { text: '进程模型', link: '进程模型' },
+                { text: 'os模块', link: 'os模块' },
             ]
         },
         {
@@ -131,7 +142,15 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
             items: [
                 { text: '模块系统', link: '模块系统' },
             ]
-        }
+        }, 
+        {
+            text: '网络',
+            base: '/note/base/network/',
+            collapsed: false,
+            items: [
+                { text: 'http缓存机制', link: 'http缓存机制' },
+            ]
+        }, 
     ]
 }
 
@@ -200,6 +219,22 @@ function sidebarEngineering(): DefaultTheme.SidebarItem[] {
             base: '/note/engineering/',
             items: [
                { text: '概述', link: '概述' },
+            ]
+        },
+        {
+            text: 'webpack',
+            base: '/note/engineering/webpack/',
+            collapsed: false,
+            items: [
+              { text: 'devServer是如何运行的', link: 'devServer是如何运行的' },
+            ]
+        },
+        {
+            text: 'vite',
+            base: '/note/engineering/vite/',
+            collapsed: false,
+            items: [
+              { text: 'vite是如何打包的', link: 'vite是如何打包的' },
             ]
         },
         {

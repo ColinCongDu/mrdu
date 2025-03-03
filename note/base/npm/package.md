@@ -27,7 +27,7 @@ package.json是包的必须配置的一个文件，其包含了描述包的元�
 
 描述信息。在npm网站搜索一个 的时候会同时展示这个描述信息，这帮助包的使用者快速了解你的包是否是它需要的。
 
-![image-20220912101018884](/assets/npm/description.png)
+<!-- ![image-20220912101018884](/assets/npm/description.png) -->
 
 #### keywords
 
