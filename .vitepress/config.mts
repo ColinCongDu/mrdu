@@ -172,7 +172,13 @@ function sidebarFramework(): DefaultTheme.SidebarItem[] {
             text: "React",
             base: "/note/framework/react/",
             collapsed: false,
-            items: [{ text: "Hook的实现原理", link: "Hook的实现原理" }],
+            items: [
+                { text: "jsx", link: "jsx" },
+                { text: "hooks", link: "hooks" },
+                { text: "Hook的实现原理", link: "Hook的实现原理" },
+                { text: "组件间的通信", link: "组件间的通信" },
+                { text: "如何使用样式", link: "如何使用样式" },
+            ],
         },
         {
             text: "微信小程序",
@@ -192,6 +198,12 @@ function sidebarFramework(): DefaultTheme.SidebarItem[] {
             collapsed: false,
             items: [{ text: "开发环境", link: "开发环境" }],
         },
+        {
+            text: "uni app",
+            base: "/note/framework/uniapp/",
+            collapsed: false,
+            items: [{ text: "概述", link: "概述" }],
+        }
     ];
 }
 
