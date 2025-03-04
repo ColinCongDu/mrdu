@@ -40,6 +40,61 @@ __dirname: /home/user/my_project/utils
 - `process.cwd()` 返回的是启动 Node.js 进程的目录。
 - `__dirname` 返回的是当前文件所在目录（helper.js 所在的 utils/ 目录）。
 
+### 使用场景
+5. process.cwd() 的应用场景
+(1) 解决相对路径问题
+在 Node.js 中，相对路径通常相对于 process.cwd()，而不是当前文件路径：
+
+javascript
+复制
+编辑
+const fs = require('fs');
+
+fs.readFileSync('./config.json', 'utf8');  // 以 CWD 为基准查找文件
+如果当前目录是 /home/user/my_project/，那么 config.json 需要放在 /home/user/my_project/ 下。
+
+但如果用户在 /home/user 目录下执行：
+
+sh
+复制
+编辑
+cd /home/user && node my_project/app.js
+则 fs.readFileSync('./config.json', 'utf8') 会在 /home/user/config.json 查找文件，而不是 my_project 内部！
+
+(2) 确保文件路径正确
+可以使用 path.resolve() 结合 process.cwd() 构造绝对路径：
+
+javascript
+复制
+编辑
+const path = require('path');
+const fs = require('fs');
+
+const configPath = path.join(process.cwd(), 'config.json');
+const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+console.log(config);
+这样无论从哪个目录运行 node app.js，都能正确读取 config.json。
+
+(3) 在 CLI 工具中确定用户执行路径
+process.cwd() 在命令行工具（CLI）中尤为重要，因为它能动态获取用户在哪个目录运行命令：
+
+javascript
+复制
+编辑
+console.log(`当前用户在 ${process.cwd()} 目录下运行此命令`);
+(4) 确保跨平台兼容
+某些操作系统（如 Windows 和 Linux）路径格式不同，可以结合 process.cwd() 和 path 进行跨平台处理：
+
+javascript
+复制
+编辑
+const path = require('path');
+
+const filePath = path.join(process.cwd(), 'data', 'file.txt');
+console.log('跨平台路径:', filePath);
+这样无论是在 Windows (C:\\Users\\name\\data\\file.txt) 还是 Linux (/home/user/data/file.txt)，都能正确处理路径。
+
+
 
 ## `process.abort()`
 
