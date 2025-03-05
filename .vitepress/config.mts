@@ -121,6 +121,9 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
                 { text: "os模块", link: "os模块" },
                 { text: "fs模块", link: "fs模块" },
                 { text: "path模块", link: "path模块" },
+                { text: "stream模块", link: "stream模块" },
+                { text: "events模块", link: "events模块" },
+                { text: "子进程", link: "子进程" },
             ],
         },
         {

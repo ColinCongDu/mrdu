@@ -41,27 +41,27 @@ __dirname: /home/user/my_project/utils
 - `__dirname` 返回的是当前文件所在目录（helper.js 所在的 utils/ 目录）。
 
 ### 使用场景
-5. process.cwd() 的应用场景
-(1) 解决相对路径问题
+
+#### 解决相对路径问题
+
 在 Node.js 中，相对路径通常相对于 process.cwd()，而不是当前文件路径：
 
-javascript
-复制
-编辑
+
+```javascript
 const fs = require('fs');
 
 fs.readFileSync('./config.json', 'utf8');  // 以 CWD 为基准查找文件
-如果当前目录是 /home/user/my_project/，那么 config.json 需要放在 /home/user/my_project/ 下。
+```
 
-但如果用户在 /home/user 目录下执行：
+1. 如果当前目录是`/home/user/my_project/`，那么`config.json`需要放在`/home/user/my_project/` 下。
 
-sh
-复制
-编辑
+2. 但如果用户在`/home/user`目录下执行：
+```sh
 cd /home/user && node my_project/app.js
-则 fs.readFileSync('./config.json', 'utf8') 会在 /home/user/config.json 查找文件，而不是 my_project 内部！
+```
+则 `fs.readFileSync('./config.json', 'utf8')`会在`/home/user/config.json`查找文件，而不是 `my_project` 内部！
 
-(2) 确保文件路径正确
+3. 确保文件路径正确
 可以使用 path.resolve() 结合 process.cwd() 构造绝对路径：
 
 javascript
