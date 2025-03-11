@@ -179,6 +179,7 @@ function sidebarFramework(): DefaultTheme.SidebarItem[] {
             base: "/note/framework/react/",
             collapsed: false,
             items: [
+                { text: "组件", link: "组件" },
                 { text: "jsx", link: "jsx" },
                 { text: "hooks", link: "hooks" },
                 { text: "Hook的实现原理", link: "Hook的实现原理" },
