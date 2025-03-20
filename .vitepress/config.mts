@@ -92,6 +92,10 @@ function sidebarArticle(): DefaultTheme.SidebarItem[] {
             base: "/article/",
             items: [
                 {
+                    text: "如何开发一个命令行工具",
+                    link: "如何开发一个命令行工具",
+                },
+                {
                     text: "大型前端工程的管理方式",
                     link: "大型前端工程的管理方式",
                 },
@@ -210,7 +214,7 @@ function sidebarFramework(): DefaultTheme.SidebarItem[] {
             base: "/note/framework/uniapp/",
             collapsed: false,
             items: [{ text: "概述", link: "概述" }],
-        }
+        },
     ];
 }
 

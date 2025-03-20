@@ -68,7 +68,7 @@ console.log(`数据存储目录：${userDataDir}`);
 |process.env.HOME        |❌ 仅 macOS/Linux  |❌ 低（可能为空）|适用于 macOS/Linux，Windows 上不可用 |
 |process.env.USERPROFILE |❌ 仅 Windows	    |❌ 低（可能为空）|适用于 Windows，macOS/Linux 不支持   |
 
-process.env.HOME 只适用于 Linux/macOS，在 Windows 上 HOME 变量可能为空，正确的变量是 USERPROFILE，因此 os.homedir() 是最安全的跨平台方案。
+`process.env.HOME` 只适用于 Linux/macOS，在 Windows 上 HOME 变量可能为空，正确的变量是 `USERPROFILE`，因此 `os.homedir()` 是最安全的跨平台方案。
 
 ## `os.freemem()`
 
