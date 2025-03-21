@@ -194,8 +194,8 @@ function sidebarFramework(): DefaultTheme.SidebarItem[] {
             items: [
                 { text: "组件", link: "组件" },
                 { text: "jsx", link: "jsx" },
-                { text: "hooks", link: "hooks" },
-                { text: "Hook的实现原理", link: "Hook的实现原理" },
+                { text: "常用的hook", link: "常用的hook" },
+                { text: "hook的实现原理", link: "hook的实现原理" },
                 { text: "组件间的通信", link: "组件间的通信" },
                 { text: "如何使用样式", link: "如何使用样式" },
             ],
