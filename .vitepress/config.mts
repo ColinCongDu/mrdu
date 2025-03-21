@@ -92,16 +92,25 @@ function sidebarArticle(): DefaultTheme.SidebarItem[] {
             base: "/article/",
             items: [
                 {
-                    text: "如何开发一个命令行工具",
-                    link: "如何开发一个命令行工具",
+                    text: "使用node开发命令行工具",
+                    link: "使用node开发命令行工具",
                 },
                 {
                     text: "大型前端工程的管理方式",
                     link: "大型前端工程的管理方式",
                 },
-                { text: "单点登录", link: "单点登录" },
-                { text: "浏览器的兼容性", link: "浏览器的兼容性" },
-                { text: "如何做好国际化", link: "如何做好国际化" },
+                { 
+                    text: "单点登录", 
+                    link: "单点登录" 
+                },
+                { 
+                    text: "浏览器的兼容性", 
+                    link: "浏览器的兼容性" 
+                },
+                { 
+                    text: "如何做好国际化", 
+                    link: "如何做好国际化" 
+                },
             ],
         },
     ];
