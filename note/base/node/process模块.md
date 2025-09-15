@@ -28,7 +28,7 @@ process.env.MY_VAR = "Hello World";
 console.log(process.env.MY_VAR);  // 输出 "Hello World"
 ```
 
-:warning warning 注意：
+注意：
 - 仅对当前进程有效，不会影响全局系统环境变量。
 - 不能删除环境变量（delete process.env.MY_VAR 可能无效）。
 
@@ -71,7 +71,7 @@ node args.js argv1 argv2=val2 -argv3 val3
 
 #### 提取用户参数
 
-因为 node 的参数可能是多种形式的，例如`argv1=val1`、`-argv2 value`，所以自己去解析命令行的参数还是很复杂的，在实际开发中，可以使用 yargs 或 commander.js 解析参数。
+因为 node 的参数可能是多种形式的，例如`argv1=val1`、`-argv2 value`，所以自己去解析命令行的参数还是很复杂的，在实际开发中，可以使用 `yargs` 或 `commander.js` 解析参数。
 
 ## `process.argv0`
 
@@ -252,5 +252,3 @@ process.on("uncaughtException", (err) => {
 
 throw new Error("致命错误！");
 ```
-
-# `process.cwd()`
