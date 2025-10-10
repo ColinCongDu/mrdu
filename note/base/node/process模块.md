@@ -94,6 +94,8 @@ node args.js argv1 argv2=val2 -argv3 val3
 `process.argv[0]` 通常与 `process.argv0` 相同，但可能会因 `execPath` 变化而受到影响。
 `process.argv[0]` 可以反映当前 Node.js 可执行文件的路径。
 
+## 信号
+
 ## `process.cwd()`
 
 用于获取进程的**当前工作目录**（Current Working Directory, CWD），即**启动 Node.js 进程的目录**。返回的是当前工作目录的绝对路径（字符串）。

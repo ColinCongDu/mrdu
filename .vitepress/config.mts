@@ -58,7 +58,7 @@ function nav(): DefaultTheme.NavItem[] {
                 },
                 {
                     text: "框架",
-                    link: "/note/framework/vue/Vue3",
+                    link: "/note/framework/vue3/概述",
                 },
                 {
                     text: "工程化",
@@ -182,10 +182,13 @@ function sidebarAlgorithm(): DefaultTheme.SidebarItem[] {
 function sidebarFramework(): DefaultTheme.SidebarItem[] {
     return [
         {
-            text: "Vue",
-            base: "/note/framework/vue/",
+            text: "Vue3",
+            base: "/note/framework/vue3/",
             collapsed: false,
-            items: [{ text: "Vue3", link: "Vue3" }],
+            items: [
+                { text: "与vue2的区别", link: "与vue2的区别" },
+                { text: "样式支持", link: "样式支持" }
+            ],
         },
         {
             text: "React",
