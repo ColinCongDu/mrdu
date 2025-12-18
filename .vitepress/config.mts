@@ -204,12 +204,6 @@ function sidebarFramework(): DefaultTheme.SidebarItem[] {
             ],
         },
         {
-            text: "微信小程序",
-            base: "/note/framework/wxApp/",
-            collapsed: false,
-            items: [{ text: "概述", link: "概述" }],
-        },
-        {
             text: "electron",
             base: "/note/framework/electron/",
             collapsed: false,
@@ -220,13 +214,7 @@ function sidebarFramework(): DefaultTheme.SidebarItem[] {
             base: "/note/framework/react-native/",
             collapsed: false,
             items: [{ text: "开发环境", link: "开发环境" }],
-        },
-        {
-            text: "uni app",
-            base: "/note/framework/uniapp/",
-            collapsed: false,
-            items: [{ text: "概述", link: "概述" }],
-        },
+        }
     ];
 }
 
@@ -268,7 +256,23 @@ function sidebarMobile(): DefaultTheme.SidebarItem[] {
         {
             text: "移动端",
             base: "/note/mobile/",
+            collapsed: false,
             items: [{ text: "移动端开发技术路线", link: "移动端开发技术路线" }],
+        },
+    {
+            text: "uni app",
+            base: "/note/mobile/uniapp/",
+            collapsed: false,
+            items: [{ text: "概述", link: "概述" }],
+        },
+        {
+            text: "小程序",
+            base: "/note/mobile/miniApp/",
+            collapsed: false,
+            items: [
+                { text: "小程序", link: "小程序" },
+                { text: "微信小程序", link: "微信小程序" }
+            ],
         },
     ];
 }
