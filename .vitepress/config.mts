@@ -119,6 +119,15 @@ function sidebarArticle(): DefaultTheme.SidebarItem[] {
 function sidebarBase(): DefaultTheme.SidebarItem[] {
     return [
         {
+            text: "TypeScript",
+            base: "/note/base/typescript/",
+            collapsed: false,
+            items: [
+                { text: "快速上手", link: "快速上手" },
+                { text: "类型系统", link: "类型系统" }
+            ],
+        },
+        {
             text: "包管理器",
             base: "/note/base/npm/",
             collapsed: false,
@@ -138,12 +147,6 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
                 { text: "events模块", link: "events模块" },
                 { text: "子进程", link: "子进程" },
             ],
-        },
-        {
-            text: "TypeScript",
-            base: "/note/base/typescript/",
-            collapsed: false,
-            items: [{ text: "类型系统", link: "类型系统" }],
         },
         {
             text: "浏览器",
