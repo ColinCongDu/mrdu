@@ -124,7 +124,9 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
             collapsed: false,
             items: [
                 { text: "快速上手", link: "快速上手" },
-                { text: "类型系统", link: "类型系统" },
+                { 
+                    text: "类型系统", link: "类型系统" 
+                },
                 { text: "声明文件", link: "声明文件" }
             ],
         },
