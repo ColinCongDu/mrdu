@@ -22,7 +22,7 @@ export default defineConfig({
         ],
         outline: {
             label: "页面导航",
-            level: "deep",
+            level: [2, 4],
         },
         lastUpdated: {
             text: "最后更新于",
@@ -36,6 +36,12 @@ export default defineConfig({
             copyright: `版权所有 © 2019-${new Date().getFullYear()} 杜聪聪`,
         },
     },
+    markdown: {
+        theme: {
+            light: 'github-light',
+            dark: 'github-dark'
+        }
+    }
 });
 
 function nav(): DefaultTheme.NavItem[] {
