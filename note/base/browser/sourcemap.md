@@ -16,7 +16,7 @@
 
 映射文件通常以“.map”作后缀。如Vue源码。
 
-<img src="\assets\soucemap.png"/>
+![sourcemap](./images/sourcemap.png)
 
 创建源代码映射的第一版是供[Closure Inspector](https://code.google.com/archive/p/closure-inspector/) 使用的 。现行的sourcemap是[第三版](https://docs.google.com/document/d/1U1RGAehQwRypUTovF1KRlpiOFze0b-_2gc6fAH0KY0k/edit)，由Google和Mozilla的代表共同编写。但是通常我们是不需要知道.map文件中包含的到底是什么，如果有需要，可以查看其版本规范。
 
