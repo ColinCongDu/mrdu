@@ -55,7 +55,7 @@ const webpackConfig = {
 
 ### devtool
 
-devtool用来控制是否生成，以及如何生成source-map。在[source-map](./../../browser/sourcemap.md)那一章节我们可以了解到什么是source-map。
+devtool用来控制是否生成，以及如何生成source-map。在source-map那一章节我们可以了解到什么是source-map。
 
 配置devtool很简单，但是其[可配置的值](https://webpack.docschina.org/configuration/devtool/#devtool)有二十 多项。并且官网中对于配置值的解释却令人迷惑，下面主要是对官网中的内容解释。
 
