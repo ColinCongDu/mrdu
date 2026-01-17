@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CMFi8ROq.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blog/移动端开发.md","filePath":"blog/移动端开发.md","lastUpdated":1739977780000}'),o={name:"blog/移动端开发.md"};function r(s,_,c,n,d,p){return a(),t("div")}const m=e(o,[["render",r]]);export{i as __pageData,m as default};
