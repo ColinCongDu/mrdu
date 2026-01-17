@@ -3,6 +3,10 @@
     --vp-c-text-1: var(--vt-c-indigo);
 }
 
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif!important;
+}
+
 /* 导航栏样式 */
 .VPNavBarMenuLink {
     font-size: 13px !important;
@@ -28,10 +32,7 @@
     text-decoration: none!important;
 }
 
-body {
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif!important;
+.vp-doc img {
+    margin: 0px auto;
 }
 
-/* .vp-doc div[class*='language-'] {
-    background-color: #292d3e;
-} */

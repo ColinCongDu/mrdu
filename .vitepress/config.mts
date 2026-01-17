@@ -4,6 +4,7 @@ import { defineConfig, type DefaultTheme } from "vitepress";
 export default defineConfig({
     title: "Colin Du's blog",
     description: "A VitePress Site",
+    base: '/mrdu/',
     themeConfig: {
         nav: nav(),
         sidebar: {
