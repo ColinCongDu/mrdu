@@ -57,7 +57,7 @@ function nav(): DefaultTheme.NavItem[] {
             items: [
                 {
                     text: "基础",
-                    link: "/note/base/javascript/模块系统",
+                    link: "/note/base/typescript/快速上手",
                 },
                 {
                     text: "算法",
