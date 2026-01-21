@@ -1,6 +1,5 @@
 import { defineConfig, type DefaultTheme } from "vitepress";
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: "Colin Du's blog",
     description: "A VitePress Site",
@@ -131,10 +130,24 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
             collapsed: false,
             items: [
                 { text: "快速上手", link: "快速上手" },
-                { 
-                    text: "类型系统", link: "类型系统" 
+                {
+                    text: '语言',
+                    items: [
+                        { text: "类型系统", link: "类型系统" },
+                    ] 
                 },
-                { text: "声明文件", link: "声明文件" }
+                {
+                    text: '编译 & 配置',
+                    items: [
+                        { text: "tsconfig", link: "tsconfig" }
+                    ]
+                },       
+                {
+                    text: '生态融合',
+                    items: [
+                        { text: "声明文件", link: "声明文件" }
+                    ]
+                },
             ],
         },
         {
