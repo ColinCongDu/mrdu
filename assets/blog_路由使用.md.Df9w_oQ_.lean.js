@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CMFi8ROq.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blog/路由使用.md","filePath":"blog/路由使用.md","lastUpdated":1739977780000}'),o={name:"blog/路由使用.md"};function r(s,c,n,_,d,p){return a(),t("div")}const m=e(o,[["render",r]]);export{i as __pageData,m as default};

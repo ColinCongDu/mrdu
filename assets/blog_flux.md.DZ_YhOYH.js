@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.CMFi8ROq.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"blog/flux.md","filePath":"blog/flux.md","lastUpdated":1739977780000}'),o={name:"blog/flux.md"};function r(s,c,l,n,d,f){return a(),t("div")}const i=e(o,[["render",r]]);export{_ as __pageData,i as default};
