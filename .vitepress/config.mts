@@ -134,27 +134,23 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
                     text: '语言',
                     items: [
                         { text: "类型系统", link: "类型系统" },
+                        { text: "装饰器", link: "装饰器" },
                     ] 
                 },
                 {
                     text: '编译 & 配置',
                     items: [
-                        { text: "tsconfig", link: "tsconfig" }
+                        { text: "tsconfig.json", link: "tsconfig" }
                     ]
                 },       
                 {
                     text: '生态融合',
                     items: [
-                        { text: "声明文件", link: "声明文件" }
+                        { text: "声明文件", link: "声明文件" },
+                        { text: "js生态集成", link: "js生态集成" }
                     ]
                 },
             ],
-        },
-        {
-            text: "包管理器",
-            base: "/note/base/npm/",
-            collapsed: false,
-            items: [{ text: "package.json详解", link: "package" }],
         },
         {
             text: "node",
@@ -170,6 +166,12 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
                 { text: "events模块", link: "events模块" },
                 { text: "子进程", link: "子进程" },
             ],
+        },
+        {
+            text: "包管理器",
+            base: "/note/base/npm/",
+            collapsed: false,
+            items: [{ text: "package.json详解", link: "package" }],
         },
         {
             text: "浏览器",
