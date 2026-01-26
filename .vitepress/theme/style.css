@@ -1,6 +1,8 @@
 :root {
     --vt-c-indigo: #213547;
     --vp-c-text-1: var(--vt-c-indigo);
+    --vp-custom-block-tip-border: var(--vp-c-brand);
+    --vp-custom-block-tip-bg: var(--vp-c-bg-soft);
 }
 
 body {
@@ -36,3 +38,29 @@ body {
     margin: 0px auto;
 }
 
+/* 提示 */
+.vp-doc .custom-block {
+    position: relative;
+    padding: 20px 24px 4px 42px;
+}
+
+.vp-doc .custom-block:before {
+    content: "ⓘ";
+    position: absolute;
+    font-weight: 600;
+    font-size: 15px;
+    top: 20px;
+    left: 17px
+}
+
+.vp-doc .custom-block.tip:before {
+    color:  var(--vp-c-brand);
+}
+
+/** 图片缩放样式 **/
+.medium-zoom-overlay {
+    z-index: 40;
+}
+.medium-zoom-image--opened {
+    z-index: 50;
+}

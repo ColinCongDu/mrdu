@@ -134,6 +134,7 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
                     text: '语言',
                     items: [
                         { text: "类型系统", link: "类型系统" },
+                        { text: "类型运算与工具类型", link: "类型运算与工具类型" },
                         { text: "装饰器", link: "装饰器" },
                     ] 
                 },
@@ -229,6 +230,14 @@ function sidebarFramework(): DefaultTheme.SidebarItem[] {
                 { text: "hook的实现原理", link: "hook的实现原理" },
                 { text: "组件间的通信", link: "组件间的通信" },
                 { text: "如何使用样式", link: "如何使用样式" },
+            ],
+        },
+        {
+            text: "react路由",
+            base: "/note/framework/react-router/",
+            collapsed: false,
+            items: [
+                { text: "快速上手", link: "快速上手" },
             ],
         },
         {
