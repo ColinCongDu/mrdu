@@ -1,1 +1,0 @@
-# mvc、mvvm、mvp有什么区别

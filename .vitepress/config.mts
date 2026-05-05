@@ -6,24 +6,20 @@ export default defineConfig({
     base: "/mrdu/",
     srcDir: "docs",
     themeConfig: {
-        nav: [
-            ...nav(),
-            {
-                text: 'AI专题',
-                link: "https://ducolin.github.io/ai-magic/" 
-            }
-        ],
+        nav: nav(),
         sidebar: {
             "/article/": sidebarArticle(),
             "/weixin/": sidebarWeixin(),
-            "/note/base/": sidebarBase(),
-            "/note/algorithm/": sidebarAlgorithm(),
-            "/note/framework/": sidebarFramework(),
-            "/note/engineering/": sidebarEngineering(),
-            "/note/mobile": sidebarMobile(),
-            "/note/server": sidebarServer(),
-            "/note/optimize": sidebarOptimize(),
-            "/note/secure": sidebarSecure(),
+            "/frontend/base/": sidebarBase(),
+            "/frontend/algorithm/": sidebarAlgorithm(),
+            "/frontend/framework/": sidebarFramework(),
+            "/frontend/engineering/": sidebarEngineering(),
+            "/frontend/mobile": sidebarMobile(),
+            "/frontend/server": sidebarServer(),
+            "/frontend/optimize": sidebarOptimize(),
+            "/frontend/secure": sidebarSecure(),
+            "/interview": sidebarInterview(),
+            '/ai-guide/': sidebarGuide(),
         },
         socialLinks: [
             { icon: "github", link: "https://github.com/MrDuCongcong/mrdu" },
@@ -56,50 +52,64 @@ function nav(): DefaultTheme.NavItem[] {
     return [
         {
             text: "文章",
-            link: "/article/大型前端工程的管理方式",
+            link: "/article/微前端",
             activeMatch: "/article",
-        },
-        {
-            text: "笔记",
-            items: [
-                {
-                    text: "基础",
-                    link: "/note/base/typescript/快速上手",
-                },
-                {
-                    text: "算法",
-                    link: "/note/algorithm/树",
-                },
-                {
-                    text: "框架",
-                    link: "/note/framework/vue3/概述",
-                },
-                {
-                    text: "工程化",
-                    link: "/note/engineering/概述",
-                },
-                {
-                    text: "移动端",
-                    link: "/note/mobile/移动端开发技术路线",
-                },
-                {
-                    text: "服务端",
-                    link: "/note/server/node服务端开发",
-                },
-                {
-                    text: "优化",
-                    link: "/note/optimize/exception/如何处理异常",
-                },
-                {
-                    text: "安全",
-                    link: "/note/secure/非对称加密",
-                },
-            ],
         },
         {
             text: "微信生态",
             link: "/weixin/生态简介",
             activeMatch: "/weixin",
+        },
+        {
+            text: "前端",
+            items: [
+                {
+                    text: "基础",
+                    link: "/frontend/base/typescript/快速上手",
+                },
+                {
+                    text: "算法",
+                    link: "/frontend/algorithm/树",
+                },
+                {
+                    text: "框架",
+                    link: "/frontend/framework/vue3/与vue2的区别",
+                },
+                {
+                    text: "工程化",
+                    link: "/frontend/engineering/概述",
+                },
+                {
+                    text: "移动端",
+                    link: "/frontend/mobile/移动端开发技术路线",
+                },
+                {
+                    text: "服务端",
+                    link: "/frontend/server/node服务端开发",
+                },
+                {
+                    text: "优化",
+                    link: "/frontend/optimize/exception/如何处理异常",
+                },
+                {
+                    text: "安全",
+                    link: "/frontend/secure/非对称加密",
+                },
+            ],
+        },
+        {
+            text: 'AI',
+            items:  [
+                {
+                    text: '基础',
+                    link: '/ai-guide/LLM',
+                }
+            ]
+        },
+        {
+            text: "综合",
+            link: "/interview/框架",
+            activeMatch: "/interview"
         },
     ];
 }
@@ -111,25 +121,13 @@ function sidebarArticle(): DefaultTheme.SidebarItem[] {
             base: "/article/",
             items: [
                 {
+                    text: '微前端',
+                    link: '微前端',
+                },
+                {
                     text: "使用node开发命令行工具",
                     link: "使用node开发命令行工具",
-                },
-                {
-                    text: "大型前端工程的管理方式",
-                    link: "大型前端工程的管理方式",
-                },
-                {
-                    text: "单点登录",
-                    link: "单点登录",
-                },
-                {
-                    text: "浏览器的兼容性",
-                    link: "浏览器的兼容性",
-                },
-                {
-                    text: "如何做好国际化",
-                    link: "如何做好国际化",
-                },
+                }, 
             ],
         },
     ];
@@ -173,6 +171,7 @@ function sidebarWeixin(): DefaultTheme.SidebarItem[] {
                             link: "开发框架",
                             items: [
                                 { text: "基础", link: "基础" },
+                                { text: "组件", link: "组件" },
                                 { text: "页面", link: "页面" },
                                 { text: "路由", link: "路由" },
                                 { text: "生命周期", link: "生命周期" },
@@ -199,7 +198,7 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: "TypeScript",
-            base: "/note/base/typescript/",
+            base: "/frontend/base/typescript/",
             collapsed: false,
             items: [
                 { text: "快速上手", link: "快速上手" },
@@ -230,7 +229,7 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
         },
         {
             text: "node",
-            base: "/note/base/node/",
+            base: "/frontend/base/node/",
             collapsed: false,
             items: [
                 { text: "进程模型", link: "进程模型" },
@@ -245,28 +244,28 @@ function sidebarBase(): DefaultTheme.SidebarItem[] {
         },
         {
             text: "包管理器",
-            base: "/note/base/npm/",
+            base: "/frontend/base/npm/",
             collapsed: false,
             items: [{ text: "package.json详解", link: "package" }],
         },
         {
             text: "浏览器",
-            base: "/note/base/browser/",
+            base: "/frontend/base/browser/",
             collapsed: false,
             items: [
-                { text: "跨域", link: "跨域" },
                 { text: "浏览器中的存储", link: "浏览器中的存储" },
+                { text: "shadow DOM", link: "shadowDOM" },
             ],
         },
         {
             text: "JavaScript",
-            base: "/note/base/javascript/",
+            base: "/frontend/base/javascript/",
             collapsed: false,
             items: [{ text: "模块系统", link: "模块系统" }],
         },
         {
             text: "网络",
-            base: "/note/base/network/",
+            base: "/frontend/base/network/",
             collapsed: false,
             items: [{ text: "http缓存机制", link: "http缓存机制" }],
         },
@@ -277,7 +276,7 @@ function sidebarAlgorithm(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: "算法",
-            base: "/note/algorithm/",
+            base: "/frontend/algorithm/",
             items: [{ text: "树", link: "树" }],
         },
     ];
@@ -287,7 +286,7 @@ function sidebarFramework(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: "Vue3",
-            base: "/note/framework/vue3/",
+            base: "/frontend/framework/vue3/",
             collapsed: false,
             items: [
                 { text: "与vue2的区别", link: "与vue2的区别" },
@@ -296,39 +295,51 @@ function sidebarFramework(): DefaultTheme.SidebarItem[] {
         },
         {
             text: "React",
-            base: "/note/framework/react/",
+            base: "/frontend/framework/react/",
             collapsed: false,
             items: [
-                { text: "快速上手", link: "快速上手" },
-                { text: "组件", link: "组件" },
-                { text: "jsx", link: "jsx" },
-                { text: "hook", link: "hook" },
-                { text: "hook的实现原理", link: "hook的实现原理" },
-                { text: "组件间的通信", link: "组件间的通信" },
-                { text: "css样式", link: "css样式" },
+                {
+                    text: '框架上手',
+                    items: [
+                        { text: "快速上手", link: "快速上手" },
+                        { text: "组件", link: "组件" },
+                        { text: "jsx", link: "jsx" },
+                        { text: "hooks", link: "hooks" },
+                        { text: "组件间的通信", link: "组件间的通信" },
+                        { text: "css样式", link: "css样式" },
+                    ]
+                },
+                {
+                    text: '核心原理',
+                    items: [
+                        { text: "Fiber架构", link: "Fiber架构" },
+                        { text: "状态更新过程", link: "状态更新过程" },
+                        { text: "hook原理", link: "hook原理" },
+                    ]
+                }
             ],
         },
         {
             text: "React路由",
-            base: "/note/framework/react-router/",
+            base: "/frontend/framework/react-router/",
             collapsed: false,
             items: [{ text: "快速上手", link: "快速上手" }],
         },
         {
             text: "Redux",
-            base: "/note/framework/redux/",
+            base: "/frontend/framework/redux/",
             collapsed: false,
             items: [{ text: "快速上手", link: "快速上手" }],
         },
         {
             text: "electron",
-            base: "/note/framework/electron/",
+            base: "/frontend/framework/electron/",
             collapsed: false,
             items: [{ text: "概述", link: "概述" }],
         },
         {
             text: "React Native",
-            base: "/note/framework/react-native/",
+            base: "/frontend/framework/react-native/",
             collapsed: false,
             items: [{ text: "开发环境", link: "开发环境" }],
         },
@@ -339,12 +350,12 @@ function sidebarEngineering(): DefaultTheme.SidebarItem[] {
     return [
         // {
         //     text: "工程化",
-        //     base: "/note/engineering/",
+        //     base: "/frontend/engineering/",
         //     items: [{ text: "概述", link: "概述" }],
         // },
         // {
         //     text: "webpack",
-        //     base: "/note/engineering/webpack/",
+        //     base: "/frontend/engineering/webpack/",
         //     collapsed: false,
         //     items: [
         //         {
@@ -355,13 +366,13 @@ function sidebarEngineering(): DefaultTheme.SidebarItem[] {
         // },
         {
             text: "vite",
-            base: "/note/engineering/vite/",
+            base: "/frontend/engineering/vite/",
             collapsed: false,
             items: [{ text: "快速上手", link: "快速上手" }],
         },
         {
             text: "测试",
-            base: "/note/engineering/test/",
+            base: "/frontend/engineering/test/",
             collapsed: false,
             items: [{ text: "概述", link: "概述" }],
         },
@@ -372,13 +383,13 @@ function sidebarMobile(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: "移动端",
-            base: "/note/mobile/",
+            base: "/frontend/mobile/",
             collapsed: false,
             items: [{ text: "移动端开发技术路线", link: "移动端开发技术路线" }],
         },
         {
             text: "uni app",
-            base: "/note/mobile/uniapp/",
+            base: "/frontend/mobile/uniapp/",
             collapsed: false,
             items: [{ text: "概述", link: "概述" }],
         },
@@ -389,7 +400,7 @@ function sidebarServer(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: "服务端",
-            base: "/note/server/",
+            base: "/frontend/server/",
             items: [{ text: "node服务端开发", link: "node服务端开发" }],
         },
     ];
@@ -399,12 +410,12 @@ function sidebarOptimize(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: "异常",
-            base: "/note/optimize/exception/",
+            base: "/frontend/optimize/exception/",
             items: [{ text: "如何处理异常", link: "如何处理异常" }],
         },
         {
             text: "性能",
-            base: "/note/optimize/performance/",
+            base: "/frontend/optimize/performance/",
             items: [{ text: "如何评估性能", link: "如何评估性能" }],
         },
     ];
@@ -414,8 +425,72 @@ function sidebarSecure(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: "安全",
-            base: "/note/secure/",
+            base: "/frontend/secure/",
             items: [{ text: "非对称加密", link: "非对称加密" }],
         },
     ];
+}
+
+function sidebarInterview(): DefaultTheme.SidebarItem[] {
+    return [
+        {
+            text: "技术",
+            base: "/interview/",
+            items: [
+                {
+                    text: "框架",
+                    link: "框架",
+                },
+                {
+                    text: "架构",
+                    link: "架构",
+                },
+            ],
+        },
+        {
+            text: "业务",
+            base: "/interview/",
+            items: [
+                {
+                    text: "PLM",
+                    link: "PLM",
+                },
+                {
+                    text: "项目管理",
+                    link: "PLM项目管理",
+                }
+            ],
+        },
+    ]
+}
+
+
+function sidebarGuide(): DefaultTheme.SidebarItem[] {
+    return [
+        {
+            text: '基本概念',
+            items: [
+                {
+                    text: '大语言模型',
+                    link: '/ai-guide/LLM'
+                },
+                {
+                    text: 'Agent',
+                    link: '/ai-guide/Agent'
+                },
+                {
+                    text: 'token',
+                    link: '/ai-guide/token'
+                },
+                {
+                    text: 'skill',
+                    link: '/ai-guide/skill'
+                },
+                {
+                    text: 'MCP',
+                    link: '/ai-guide/MCP'
+                }
+            ]
+        },
+    ]
 }

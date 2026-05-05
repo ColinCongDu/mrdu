@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.6">
+  <diagram id="llm-agent-rel" name="LLM-Agent 多对多关系">
+    <mxGraphModel dx="1042" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="group-llm-label" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" value="LLM（大模型）" vertex="1">
+          <mxGeometry height="30" width="200" x="70" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="group-agent-label" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=14;fontStyle=1;" value="Agent（基于 LLM 的应用 / 代理）" vertex="1">
+          <mxGeometry height="30" width="360" x="70" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="llm-chatgpt52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="ChatGPT 5.2" vertex="1">
+          <mxGeometry height="60" width="140" x="180" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="llm-gemini3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="Gemini 3 Flash" vertex="1">
+          <mxGeometry height="60" width="160" x="370" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="llm-glm5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="GLM-5" vertex="1">
+          <mxGeometry height="60" width="120" x="590" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="llm-other" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;" value="其他 LLM" vertex="1">
+          <mxGeometry height="60" width="140" x="780" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-chatgpt-ui" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" value="ChatGPT（官方界面）" vertex="1">
+          <mxGeometry height="60" width="190" x="120" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-cursor" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" value="Cursor" vertex="1">
+          <mxGeometry height="60" width="130" x="410" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-copilot" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" value="GitHub Copilot" vertex="1">
+          <mxGeometry height="60" width="170" x="630" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="agent-other" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" value="其他 Agent" vertex="1">
+          <mxGeometry height="60" width="140" x="880" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="text-many2many" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;strokeColor=none;" value="一个 LLM 可以服务多个 Agent&#xa;一个 Agent 也可以调用多个 LLM" vertex="1">
+          <mxGeometry height="70" width="420" x="360" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-llm52-chatgptui" edge="1" parent="1" source="llm-chatgpt52" style="endArrow=block;html=1;strokeColor=#6c8ebf;" target="agent-chatgpt-ui">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-llm52-cursor" edge="1" parent="1" source="llm-chatgpt52" style="endArrow=block;html=1;strokeColor=#6c8ebf;" target="agent-cursor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-llm52-copilot" edge="1" parent="1" source="llm-chatgpt52" style="endArrow=block;html=1;strokeColor=#6c8ebf;" target="agent-copilot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-gemini-cursor" edge="1" parent="1" source="llm-gemini3" style="endArrow=block;html=1;strokeColor=#6c8ebf;" target="agent-cursor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-gemini-copilot" edge="1" parent="1" source="llm-gemini3" style="endArrow=block;html=1;strokeColor=#6c8ebf;" target="agent-copilot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-gemini-otheragent" edge="1" parent="1" source="llm-gemini3" style="endArrow=block;html=1;strokeColor=#6c8ebf;" target="agent-other">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-glm5-cursor" edge="1" parent="1" source="llm-glm5" style="endArrow=block;html=1;strokeColor=#6c8ebf;" target="agent-cursor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-glm5-copilot" edge="1" parent="1" source="llm-glm5" style="endArrow=block;html=1;strokeColor=#6c8ebf;" target="agent-copilot">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-llmother-chatgptui" edge="1" parent="1" source="llm-other" style="endArrow=block;html=1;strokeColor=#6c8ebf;dashed=1;" target="agent-chatgpt-ui">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-llmother-otheragent" edge="1" parent="1" source="llm-other" style="endArrow=block;html=1;strokeColor=#6c8ebf;dashed=1;" target="agent-other">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="text;html=1;align=left;verticalAlign=top;fontSize=12;strokeColor=none;" value="箭头方向：LLM 为 Agent 提供推理服务 / 能力（通过 API 调用）" vertex="1">
+          <mxGeometry height="40" width="500" x="70" y="540" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
